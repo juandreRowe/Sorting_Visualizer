@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Styles/index.css" />
+    <title>Sorting</title>
+</head>
+<body onload="fillChart()">
+    <div id="allContent">
+        <div id="logo">
+            <h1>Juandre Rowe</h1>
+        </div>
+        <div id="options">
+            <div id="random">
+                <button onclick="fillChart();">Randomize</button>
+            </div>
+            <div id="bubble">
+                <button onclick="thirdSort()">Bubble sort</button>
+            </div>
+            <div id="bubbleReverse">
+                <button onclick="thirdSortReverse()">Bubble sort reverse</button>
+            </div>
+            <div id="merge">
+                <button onclick="selectionSort()">Selection sort</button>
+            </div>
+            <div id="mergeRevers">
+                <button onclick="insertionSort()">Insertion sort</button>
+            </div>
+        </div>
+        <div id="mainContent">
+            <div id="graph">
+                
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/index.js"></script>
+</body>
+</html>
